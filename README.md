@@ -46,6 +46,6 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 ## Vtiger CRM ##
 	
-	Vtiger CRM is available as both Open Source so go and [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first.
+Vtiger CRM is available as both Open Source so go and [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first.
 
 
