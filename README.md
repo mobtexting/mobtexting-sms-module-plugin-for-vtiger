@@ -13,7 +13,7 @@ First thing we need is the `manifest.xml` file. This file is required and the mo
 
 ## Step 2 - The module class ##
 
-Create a folder named Modules in the `root` folder and inside create folders `SMSNotifier\providers\` under the file `MOBTexting.php` and you need to handle Vtiger events, also add `SMSNotifierHandler.php` file in `SMSNotifier\` under the folder.
+Create a folder named `modules` in the `root` folder and inside create folders `SMSNotifier\providers\` under the file `MOBTexting.php` and you need to handle Vtiger events, also add `SMSNotifierHandler.php` file in `SMSNotifier\` under the folder.
 
 
 ## Step 3 - Adding the language file ##
