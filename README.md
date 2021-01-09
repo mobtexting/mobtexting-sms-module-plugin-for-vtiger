@@ -47,13 +47,21 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 ## Vtiger CRM Steps: ##
 	
 Vtiger CRM is available as both Open Source so [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first and install.
+
 After installed, login admin panel and you can see left side `setting / CRM Setting` so open that option and choose `modules` and you can see `module management`
 page.
+
 Right side top you can see the "Import Module from zip" button click and open it will open a new  page then select the "accept" option and then it will ask which zip folder you would like to install so choose the "module zip floder" after click the import button.
+
 you can see a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it willbe installing.
+
 After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
+
 you can see on right side `New Configuration` button click it.
-Select the `provider` option of  `MOBTexting`
+
+Select the `provider` option of  `MOBTexting`,
 Then give the `access token,service,sender` all are mandatory fields.
+
 Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
+
 Enjoy! (*_*) (^.^)...
