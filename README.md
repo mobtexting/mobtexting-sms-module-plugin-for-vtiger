@@ -1,6 +1,6 @@
 # mobtexting-sms-module-plugin-for-vtiger#
 
-##Step 0 - Make sure this is for you:##
+##Step 0 - Make sure this is for you##
 
 First [download the install kit (v.2.1)](https://github.com/mobtexting/mobtexting-sms-module-plugin-for-vtiger/) and test if this code works for you.
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
