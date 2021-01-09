@@ -2,7 +2,7 @@
 
 ## Step 0 - Make sure this is for you ##
 
-First [download the install kit (v.2.1)](https://github.com/mobtexting/mobtexting-sms-module-plugin-for-vtiger/) and test if this code works for you.
+First [download the install kit (v.2.1)](https://github.com/mobtexting/mobtexting-sms-module-plugin-for-vtiger/archive/master.zip) and test if this code works for you.
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
 
 ## Step 1 - The manifest file ##
@@ -13,7 +13,7 @@ First thing we need is the "manifest.xml" file. This file is required and the mo
 
 ## Step 2 - The module class ##
 
-Create a folder named Modules in the root folder and inside create folders "SMSNotifier\providers\" under the file "MOBTexting.php" and you need to handle Vtiger events, also add "SMSNotifierHandler.php" file in "SMSNotifier\" under the folder.
+Create a folder named Modules in the root folder and inside create folders `SMSNotifier\providers\` under the file `MOBTexting.php` and you need to handle Vtiger events, also add `SMSNotifierHandler.php` file in `SMSNotifier\` under the folder.
 
 
 ## Step 3 - Adding the language file ##
