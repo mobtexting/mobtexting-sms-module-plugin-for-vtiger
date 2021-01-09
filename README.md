@@ -18,7 +18,7 @@ Create a folder named `modules` in the `root` folder and inside create folders `
 
 ## Step 3 - Adding the language file ##
 
-Next step is to add the language file so, Create a folder named languages and put it inside the `root` folder. Inside languages put another folder named en_us and place inside it the file `SMSNotifier.php`. It is required to make the `en_us` folder and also create a new folder as `Settings\` inside it the file `SMSNotifier.php`. For other languages use the specific code, eg. `de_de, en_gb, es_es, ro_ro etc`.
+Next step is to add the language file so, Create a folder named languages and put it inside the `root` folder. Inside languages put another folder named `en_us` and place inside it the file `SMSNotifier.php`. It is required to make the `en_us` folder and also create a new folder as `Settings\` inside it the file `SMSNotifier.php`. For other languages use the specific code, eg. `de_de, en_gb, es_es, ro_ro etc`.
 
 
 ## Step 4 - Adding a module template (layout) ##
