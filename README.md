@@ -44,7 +44,7 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 	  not having the expected structure leads to confusing error messages
 	* language file name must fit the module name.
 
-## Vtiger CRM ##
+## Vtiger CRM Steps: ##
 	
 Vtiger CRM is available as both Open Source so go and [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first.
 
