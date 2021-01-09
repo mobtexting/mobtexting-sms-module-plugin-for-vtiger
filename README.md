@@ -40,5 +40,12 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 	* manifest.xml needs to be present
 	* Vtiger version in the manifest file must meet the minimum criteria defined by the Vtiger version you are running
 	* language file needs to be present
-	* files inside the package must have a certain structure in folders; not having the expected structure leads to confusing error messages
+	* files inside the package must have a certain structure in folders;
+	  not having the expected structure leads to confusing error messages
 	* language file name must fit the module name.
+
+## Vtiger CRM ##
+	
+	Vtiger CRM is available as both Open Source so go and [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first.
+
+
