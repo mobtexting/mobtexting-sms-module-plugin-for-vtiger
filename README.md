@@ -8,7 +8,7 @@ If the module installed fine, than you are ready to go. I will try to give some 
 ## Step 1 - The manifest file ##
 
 Create an empty folder which will hold all the files. Generally I will refer to this folder as `root`.
-First thing we need is the `manifest.xml` file. This file is required and the module name is SMSNotifier.
+First thing we need is the `manifest.xml` file. This file is required and the module name is `SMSNotifier`.
 
 
 ## Step 2 - The module class ##
