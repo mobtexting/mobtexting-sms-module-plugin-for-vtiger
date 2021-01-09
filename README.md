@@ -53,11 +53,11 @@ page.
 
 Right side top you can see the `Import Module from zip` button click and open it will open a new  page then select the `accept` option and then it will ask which zip folder you would like to install so choose the `module zip floder` after click the import button.
 
-It will give a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it willbe installing.
+It will give a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it will be installing.
 
 After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
 
-Then,you can see on right side `New Configuration` button click it.
+Then,you can see on right side top `New Configuration` button open it.
 
 Select the `provider` option of  `MOBTexting`,
 Then give the `access token,service,sender` all are mandatory fields.
