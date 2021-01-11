@@ -50,35 +50,35 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 2) After installed, login admin panel and you can see left side `setting / CRM Setting` so open that option.
 
-  	<img src="/images/1.jpg" >
+  	<img src="/images/image1.jpg" >
 3) Next `module management` page it will open , choose `modules` any one option.
 
-	<img src="/images/2.jpg">
+	<img src="/images/image2.jpg">
 
 4) Next page Right side top you can see the `Import Module from zip` button click and open.
 
-	<img src="/images/3.jpg">
+	<img src="/images/image3.jpg">
 	
 5) It will open a new  page then select the `accept` option and then it will ask which zip file you would like to install so choose the `module zip file` after click the import button.
 
-	<img src="/images/4.jpg">
+	<img src="/images/image4.jpg">
 
 6) It will give a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it will be installing.
 
-	<img src="/images/5.jpg">
+	<img src="/images/image5.jpg">
 	
 7) After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
 
-	<img src="/images/6.jpg">
+	<img src="/images/image6.jpg">
 	
 8) Then,you can see on right side top `New Configuration` button open it.
 
-	<img src="/images/7.jpg">
+	<img src="/images/image7.jpg">
 	
 9) Select the `provider` option of  `MOBTexting`,
    Then give the `access token,service,sender` all are mandatory fields.
    
-	<img src="/images/8.jpg">   
+	<img src="/images/image8.png">   
 
 10) Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
 
