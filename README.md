@@ -82,4 +82,4 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 10) Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
 
-    Enjoy! `(*_*) (^.^)`...
+    Enjoy! `(*_*) (^.^)`. . .
