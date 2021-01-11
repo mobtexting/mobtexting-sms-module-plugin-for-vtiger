@@ -46,22 +46,40 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 ## Vtiger CRM Steps: ##
 	
-Vtiger CRM is available as both Open Source so [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first and install.
+1) Vtiger CRM is available as both Open Source so [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first and install.
 
-After installed, login admin panel and you can see left side `setting / CRM Setting` so open that option and choose `modules` and you can see `module management`
-page.
+2) After installed, login admin panel and you can see left side `setting / CRM Setting` so open that option.
 
-Right side top you can see the `Import Module from zip` button click and open. it will open a new  page then select the `accept` option and then it will ask which zip folder you would like to install so choose the `module zip floder` after click the import button.
+  	<img src="/images/1.jpg" >
+3) Next `module management` page it will open , choose `modules` any one option.
 
-It will give a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it will be installing.
+	<img src="/images/2.jpg">
 
-After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
+4) Next page Right side top you can see the `Import Module from zip` button click and open.
 
-Then,you can see on right side top `New Configuration` button open it.
+	<img src="/images/3.jpg">
+	
+5) It will open a new  page then select the `accept` option and then it will ask which zip file you would like to install so choose the `module zip file` after click the import button.
 
-Select the `provider` option of  `MOBTexting`,
-Then give the `access token,service,sender` all are mandatory fields.
+	<img src="/images/4.jpg">
 
-Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
+6) It will give a warning of `SMS Notifier Exits` don't worry about that juct select the `Update Now` button it will be installing.
 
-Enjoy! `(*_*) (^.^)`...
+	<img src="/images/5.jpg">
+	
+7) After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
+
+	<img src="/images/6.jpg">
+	
+8) Then,you can see on right side top `New Configuration` button open it.
+
+	<img src="/images/7.jpg">
+	
+9) Select the `provider` option of  `MOBTexting`,
+   Then give the `access token,service,sender` all are mandatory fields.
+   
+	<img src="/images/8.jpg">   
+
+10) Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
+
+    Enjoy! `(*_*) (^.^)`...
