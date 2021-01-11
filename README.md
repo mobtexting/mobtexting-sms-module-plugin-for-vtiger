@@ -1,4 +1,4 @@
-# mobtexting-sms-module-plugin-for-vtiger #
+# MOBtexting SMS Module Plugin For Vtiger CRM #
 
 ## Step 0 - Make sure this is for you ##
 
