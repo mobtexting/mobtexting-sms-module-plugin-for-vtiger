@@ -2,7 +2,7 @@
 
 ## Step 0 - Make sure this is for you ##
 
-First [download the install kit (v.2.1)](https://github.com/mobtexting/mobtexting-vtiger/archive/master.zip) and test if this code works for you.
+First [download the install kit](https://github.com/mobtexting/mobtexting-vtiger/archive/master.zip) and test if this code works for you.
 If the module installed fine, than you are ready to go. I will try to give some basic steps on how to build this. Follow the steps but also the code showed on github.
 
 ## Step 1 - The manifest file ##
