@@ -67,7 +67,7 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 	<img src="/images/image5.jpg">
 	
-7) After installed hover on `SMS Notifier` setting it will show `Setting` button Click and open `Server configuration`.
+7) After installed hover on `SMS Notifier` setting it will show `Settings` button Click and open `Server configuration`.
 
 	<img src="/images/image6.jpg">
 	
