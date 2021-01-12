@@ -90,7 +90,7 @@ Create a new organization (or change an existing one). When the event vtiger.ent
   If you discover any security related issues, please email (support@mobtexting.com) instead of using the issue tracker.
 
 # Contributing #
-  Please see CONTRIBUTING for details.
+  Please see [CONTRIBUTING](https://github.com/mobtexting/message-php/blob/master/CONTRIBUTING.md) for details.
 
 # License #
  The MIT License (MIT). Please see License File for more information.
