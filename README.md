@@ -77,7 +77,8 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 	
 9) Select the `provider` option of  `MOBtexting`,
    Then give the `access token,service,sender` all are mandatory fields.
-   If you Don’t have an access token? You will find your access token in the Developers -> [API Reference](https://portal.mobtexting.com/docs/v2).
+   
+   Provides resources for developers using MOBtexting API platforms (https://portal.mobtexting.com/docs).
    
 	<img src="/images/image8.jpg">   
 
