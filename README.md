@@ -48,7 +48,7 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 	
 1) Vtiger CRM is available as both Open Source so [download](https://www.vtiger.com/open-source-crm/download-open-source/) it first and install.
 
-2) After installed, login admin panel and you can see left side `setting / CRM Setting` so open that option.
+2) After installed, login admin panel and you can see left side `Settings / CRM Settings` so open that option.
 
   	<img src="/images/image1.jpg" >
 3) Next `module management` page it will open , choose `modules` any one option.
