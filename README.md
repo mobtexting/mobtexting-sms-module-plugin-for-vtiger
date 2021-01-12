@@ -75,8 +75,9 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 
 	<img src="/images/image7.jpg">
 	
-9) Select the `provider` option of  `MOBTexting`,
+9) Select the `provider` option of  `MOBtexting`,
    Then give the `access token,service,sender` all are mandatory fields.
+   If you Don’t have an access token? You will find your access token in the Developers -> API Reference.
    
 	<img src="/images/image8.jpg">   
 
