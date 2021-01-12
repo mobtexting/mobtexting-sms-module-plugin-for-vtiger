@@ -84,3 +84,14 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 10) Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
 
     Enjoy! `(*_*) (^.^)`. . .
+    
+# Security #
+  If you discover any security related issues, please email (support@mobtexting.com) instead of using the issue tracker.
+
+# Contributing #
+  Please see CONTRIBUTING for details.
+
+# License #
+ The MIT License (MIT). Please see License File for more information.
+
+
