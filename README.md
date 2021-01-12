@@ -78,7 +78,7 @@ Create a new organization (or change an existing one). When the event vtiger.ent
 9) Select the `provider` option of  `MOBTexting`,
    Then give the `access token,service,sender` all are mandatory fields.
    
-	<img src="/images/image8.png">   
+	<img src="/images/image8.jpg">   
 
 10) Finally select Active `yes` and save it,Then use `MOBtexting SMS Provider`.
 
