@@ -16,14 +16,16 @@ class SMSNotifier_MOBTEXTING_Provider implements SMSNotifier_ISMSProvider_Model 
 	private $parameters = array();
 	private $SERVICE_URI = 'https://portal.mobtexting.com/api/v2/sms/send/';
 
-	private static $REQUIRED_PARAMETERS = array(array('name'=>'access_token','label'=>'ACCESS TOKEN','type'=>'text'),array('name'=>'service','label'=>'Service','type'=>'text'),array('name'=>'sender','label'=>'Sender','type'=>'text'));
+	private static $REQUIRED_PARAMETERS = array(array('name'=>'access_token','label'=>'ACCESS TOKEN','type'=>'text'),
+						    array('name'=>'service','label'=>'Service', 'type' => 'picklist', 'picklistvalues' => array('T' => 'T', 'P' => 'P', 'S' => 'S', 'G' => 'G')),
+						    array('name'=>'sender','label'=>'Sender','type'=>'text'));
 
 	/**
 	 * Function to get provider name
 	 * @return <String> provider name
 	 */
 	public function getName() {
-		return 'MOBTexting';
+		return 'MOBtexting';
 	}
 
 	/**
@@ -114,13 +116,8 @@ class SMSNotifier_MOBTEXTING_Provider implements SMSNotifier_ISMSProvider_Model 
 			$xmlResponse = $httpClient->doPost($params);
 			$xmlObject=json_decode($xmlResponse);
 			$result = array();
-
-			error_log(print_r($xmlObject, TRUE), 3, '/mobobj_errors.log');
-
 			if(count($xmlObject)>0 || !empty($xmlObject)) {
 				$result['id'] = $xmlObject->data[0]->id;
-				// $result['status'] = $xmlObject->data[0]->id;
-
 				$status = $xmlObject->status;
 				$message = $xmlObject->message;
 				$result['to'] = $xmlObject->data[0]->mobile;
@@ -154,8 +151,6 @@ class SMSNotifier_MOBTEXTING_Provider implements SMSNotifier_ISMSProvider_Model 
 
 
 		}
-			// error_log(print_r($results, TRUE), 3, '/mobresults.log');
-
 		return $results;
 	}
 
@@ -170,13 +165,8 @@ class SMSNotifier_MOBTEXTING_Provider implements SMSNotifier_ISMSProvider_Model 
 		$params['id'] = $messageId;
 		$params = $this->prepareParameters();
 		$httpClient = new Vtiger_Net_Client($this->getServiceURL().'/'.$messageId);
-
-		// $httpClient->setHeaders(array('Authorization' => $params['access_token'],'access_token' => $params['access_token'],'service' => $params['service'],'sender' => $params['sender']));
-
 		$xmlResponse = $httpClient->doPost($params);
-		// $xmlResponse = $httpClient->doGet(array());
 		$xmlObject=json_decode($xmlResponse);
-
 		$result = array();
 		$result['error'] = false;
 		$status = $xmlObject->status;
@@ -197,10 +187,6 @@ class SMSNotifier_MOBTEXTING_Provider implements SMSNotifier_ISMSProvider_Model 
 									break;
 
 		}
-
-		// $result['status'] = $status;
-		// $result['statusmessage'] = $xmlObject->message;
-		
 		return $result;
 	}
 
